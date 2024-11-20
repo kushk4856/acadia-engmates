@@ -347,6 +347,57 @@ only screen and (max-width: 767px) {
         width: 70%;
     }
 
+    /* =====countdown section ==== */
+    .countdown_desktop {
+        flex-direction: column !important;
+        gap: 30px;
+    }
+
+    .counter_block {
+        background: linear-gradient(to right, #fcae36 0, #ff9100 100%);
+        padding: 10px 20px;
+        width: 70%;
+        text-align: center;
+    }
+
+    .counter_block_text {
+        color: #fff;
+        margin-top: 10px;
+    }
+
+    .counter_digit {
+        background: #fff;
+        color: #FF7162;
+        font-size: 24px;
+        padding-top: 8px;
+        padding-bottom: 14px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .counter_digit_block .block span {
+        position: relative;
+        top: -23px;
+        /* color: orange; */
+    }
+
+    .google-img-rating {
+        display: flex;
+    }
+
+    .google-img-rating {
+        margin-right: 0;
+    }
+
+    .all-rating {
+        display: flex;
+        justify-content: center;
+    }
+
+    .all-rating img {
+        height: 85px;
+    }
+
 
 
 }
@@ -481,5 +532,32 @@ only screen and (max-width: 767px) {
         width: 162px;
     }
 
+    #hero {
+        padding-bottom: 60px;
+    }
 
+
+}
+
+@media (max-width:435px) {
+    .counter_block {
+        width: 100%;
+        padding: 0;
+    }
+
+    .google-img-rating img {
+        height: 78px;
+    }
+
+    .all-rating {
+        padding-inline: 4px;
+    }
+
+    .all-rating img {
+        height: 54px;
+    }
+
+    .count_down_inner {
+        justify-content: center;
+    }
 }
