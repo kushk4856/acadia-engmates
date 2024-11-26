@@ -347,6 +347,18 @@ only screen and (max-width: 767px) {
         width: 70%;
     }
 
+    .desktop_cta {
+        display: none;
+    }
+
+    .mobile_cta {
+        display: block;
+    }
+
+    .tp-header-logo {
+        width: 250px;
+    }
+
     /* =====countdown section ==== */
     .countdown_desktop {
         flex-direction: column !important;
@@ -534,6 +546,10 @@ only screen and (max-width: 767px) {
 
     #hero {
         padding-bottom: 60px;
+    }
+
+    .tp-header-logo {
+        width: auto;
     }
 
 
