@@ -752,6 +752,10 @@ hero section start
     max-width: 100%;
 }
 
+.tp-hero-3-thumb-2 img {
+    border-radius: 35px;
+}
+
 .hero_bottom_block .tp_block_3 {
     flex: 0 0 auto;
     width: 25%;
