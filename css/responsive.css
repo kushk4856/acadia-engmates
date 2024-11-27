@@ -576,4 +576,8 @@ only screen and (max-width: 767px) {
     .count_down_inner {
         justify-content: center;
     }
+
+    .tp-cta-3-title {
+        font-size: 31px;
+    }
 }
