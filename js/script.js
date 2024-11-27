@@ -5,6 +5,23 @@ const offCanvas = document.querySelector(".offcanvas__area");
 const bodyOverlay = document.querySelector(".body-overlay");
 const hasDropdown = document.querySelectorAll(".has-dropdown");
 const navbar = document.getElementById("header-sticky");
+const mobLinks = document.querySelectorAll(".tp-static");
+
+// Wait for the DOM to load
+window.addEventListener("load", () => {
+  // Select the video element
+  const video = document.getElementById("video");
+
+  // Remove the 'muted' attribute
+  if (video.hasAttribute("muted")) {
+    video.removeAttribute("muted");
+  }
+
+  // Try playing the video (in case autoplay is restricted)
+  video.play().catch((error) => {
+    console.log("Autoplay with sound failed:", error);
+  });
+});
 
 /* 
 ==========================================================
@@ -72,6 +89,13 @@ closeMenuBtn.addEventListener("click", () => {
 openMenuBtn.addEventListener("click", () => {
   offCanvas.classList.toggle("offcanvas-opened");
   bodyOverlay.classList.toggle("opened");
+});
+
+mobLinks.forEach((link) => {
+  link.addEventListener("click", () => {
+    offCanvas.classList.remove("offcanvas-opened");
+    bodyOverlay.classList.remove("opened");
+  });
 });
 /* 
 ========================

@@ -136,7 +136,8 @@ span.gblue-border {
 
 span.yellow-border {
     border-radius: 20px 34px 34px 34px;
-    background: #FA922C;
+    /* background: #FA922C; */
+    background: var(--tp-theme-engmates);
 
 }
 
@@ -148,18 +149,22 @@ span.lyellow-border {
 
 span.blue-border {
     border-radius: 22px 45px 28px 22px;
-    background: #47B1E4;
+    /* background: #47B1E4; */
+    background: var(--tp-theme-engmates);
 }
 
 span.tomato-border {
     border-radius: 46px 30px;
-    background: #F67568;
+    /* background: #F67568; */
+    background: var(--tp-theme-engmates);
 }
 
 span.dark-border {
     border-radius: 20px 34px 34px 34px;
-    background: #8E8E8E;
+    /* background: #8E8E8E; */
+    background: var(--tp-theme-engmates);
 }
+
 
 
 
@@ -1528,7 +1533,7 @@ Gallery section start
 .tp-gallary-3-item-2 img,
 .tp-gallary-3-item-3 img {
     border-radius: 36px;
-    /* animation: radiusChange 6s linear infinite; */
+    animation: radiusChange 6s linear infinite;
     max-width: 100%;
 }
 
@@ -1821,6 +1826,7 @@ CTA section Start
     margin-bottom: -99px;
     z-index: 2;
     border: 20px solid var(--tp-common-white);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
 }
 
@@ -3107,6 +3113,7 @@ Footer section end
 
 .content_area {
     padding-top: 120px;
+    padding-bottom: 24px;
     width: 100%;
     background-color: #F2eFea;
     display: flex;
@@ -3665,7 +3672,7 @@ footer p {
 .all-rating img {
     height: 204px;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 
