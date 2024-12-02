@@ -548,7 +548,7 @@ Header section
 .logo_container {
     flex: 0 0 auto;
     width: 16.66666667%;
-    padding-inline: 10px;
+    /* padding-inline: 3px; */
 }
 
 .nav_container {
@@ -685,6 +685,7 @@ hero section start
     line-height: 1.1;
     font-family: var(--tp-ff-body);
     /* text-wrap: nowrap; */
+    margin-left: -3px;
 }
 
 .hero_sub_heading {
@@ -745,7 +746,7 @@ hero section start
 .hero_bottom_block .tp_block_1 {
     flex: 0 0 auto;
     width: 16.66666667%;
-    padding-inline: 10px;
+    /* padding-inline: 10px; */
 }
 
 .tp-hero-3-apply-btn a {
@@ -804,7 +805,7 @@ hero section start
 .hero_bottom_block .tp_block_4 {
     flex: 0 0 auto;
     width: 25%;
-    padding-inline: 10px;
+    /* padding-inline: 10px; */
 }
 
 .hero_bottom_block .tp_block_2,
@@ -920,7 +921,7 @@ Service section start
 .service_cards_block {
     display: flex;
     flex-wrap: wrap;
-    padding-inline: 10px;
+    /* padding-inline: 10px; */
 }
 
 .service_card {
@@ -1064,6 +1065,7 @@ process section start
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
+    padding-inline: 0px;
 }
 
 .process_text_block {
@@ -1294,7 +1296,7 @@ span.pink-border {
     position: absolute;
     left: 135px;
     top: 200px;
-    animation: spin 6s infinite linear;
+    /* animation: spin 6s infinite linear; */
     z-index: -1;
 }
 
@@ -1306,7 +1308,7 @@ span.pink-border {
     position: absolute;
     left: 205px;
     bottom: 250px;
-    animation: neptune 12s infinite linear;
+    /* animation: neptune 12s infinite linear; */
 }
 
 .tp-process-3-shape-16 {
@@ -1317,7 +1319,7 @@ span.pink-border {
     position: absolute;
     left: 31%;
     top: 45%;
-    animation: neptune 8s infinite linear;
+    /* animation: neptune 8s infinite linear; */
 }
 
 .tp-process-3-shape-17 {
@@ -1328,7 +1330,7 @@ span.pink-border {
     position: absolute;
     right: 135px;
     bottom: 40%;
-    animation: neptune 10s infinite linear;
+    /* animation: neptune 10s infinite linear; */
 }
 
 
@@ -1405,6 +1407,7 @@ Program section start
     -ms-transition: all 0.3s 0s ease-out;
     -o-transition: all 0.3s 0s ease-out;
     transition: all 0.3s 0s ease-out;
+
 }
 
 
@@ -1537,7 +1540,7 @@ Gallery section start
 .gallery_card_sm {
     flex: 0 0 auto;
     width: 16.66666667%;
-    padding-inline: 10px;
+    /* padding-inline: 10px; */
 }
 
 .tp-gallary-3-item-1 {
@@ -1608,7 +1611,7 @@ Subject section start
 .subject_inner .subject_text_block {
     flex: 0 0 auto;
     width: 41.66666667%;
-    padding-inline: 10px;
+    /* padding-inline: 10px; */
 }
 
 .subject_inner .heading_text span {
