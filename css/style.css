@@ -660,13 +660,13 @@ hero section start
 .hero_top_block .left_hero {
     flex: 0 0 auto;
     width: 56.66%;
-    padding-inline: 24px;
+    /* padding-inline: 24px; */
 }
 
 .hero_top_block .right_hero {
     flex: 0 0 auto;
     width: 40.33%;
-    padding-inline: 24px;
+    /* padding-inline: 24px; */
 }
 
 .hero_top_block .hero_text_block {
