@@ -979,7 +979,7 @@ Service section start
 }
 
 .tp-service-3-item:hover .tp-service-3-icon-hover img {
-    filter: hue-rotate(241deg) saturate(150%);
+    filter: brightness(-150%);
 }
 
 .tp-service-3-icon {
