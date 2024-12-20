@@ -168,5 +168,6 @@ function closeModal(modalId) {
     backdrop.classList.remove("hiding");
     container.classList.remove("hiding");
     document.body.style.overflow = "unset";
+    document.body.style.overflowX = "hidden";
   }, 300);
 }
