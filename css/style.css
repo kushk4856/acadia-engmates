@@ -844,7 +844,8 @@ Service section start
     padding-bottom: 90px;
     position: relative;
     z-index: 1;
-    background-image: url(../images/services-3-bg.jpg);
+    /* background-image: url(../images/services-3-bg.jpg); */
+    background-color: #C62655;
 }
 
 .service_inner {
@@ -945,7 +946,7 @@ Service section start
 
 .tp-service-3-title {
     color: var(--tp-common-white);
-    font-size: 22px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     -webkit-transition: all 0.3s 0s ease-out;
@@ -975,6 +976,10 @@ Service section start
 .tp-service-3-item:hover .tp-service-3-icon-hover {
     opacity: 1;
     visibility: visible;
+}
+
+.tp-service-3-item:hover .tp-service-3-icon-hover img {
+    filter: hue-rotate(241deg) saturate(150%);
 }
 
 .tp-service-3-icon {
